@@ -1,0 +1,11 @@
+{
+  "name": "silo-ridge-corro-report",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "generate": "node src/generate-report-data.js",
+    "check": "node --check src/generate-report-data.js"
+  },
+  "engines": { "node": ">=20" }
+}

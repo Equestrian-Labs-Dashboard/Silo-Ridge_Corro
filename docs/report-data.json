@@ -1,0 +1,60 @@
+{
+  "generated_at": null,
+  "report_name": "Silo Ridge Sales Performance",
+  "config": {
+    "location_id": "67063775290",
+    "location_name": "Corro Trailer 1",
+    "canonical_tag": "SiloRidge",
+    "accepted_tag_variants": ["SiloRidge", "Silo Ridge", "Silo-Ridge", "SiloRodge"],
+    "scan_start": "2026-09-01",
+    "fallback_event_start": "2026-09-28",
+    "default_opex": 5000,
+    "api_version": "2026-07",
+    "inclusion_rule": "Strict AND: Shopify location Corro Trailer 1 AND Silo Ridge order tag"
+  },
+  "total": {
+    "gross_sales": 0,
+    "discounts": 0,
+    "returns": 0,
+    "net_sales": 0,
+    "cogs": 0,
+    "gross_profit": 0,
+    "orders": 0,
+    "units": 0,
+    "gross_margin": 0,
+    "units_per_order": 0,
+    "aov": 0
+  },
+  "weeks": [
+    {
+      "week": 1,
+      "startISO": "2026-09-28",
+      "endISO": "2026-10-04",
+      "actual": {
+        "gross_sales": 0,
+        "discounts": 0,
+        "returns": 0,
+        "net_sales": 0,
+        "cogs": 0,
+        "gross_profit": 0,
+        "orders": 0,
+        "units": 0,
+        "gross_margin": 0,
+        "units_per_order": 0,
+        "aov": 0
+      }
+    }
+  ],
+  "orders": [],
+  "stats": {"scanned": 0, "matched": 0, "excluded_wrong_location": 0, "excluded_missing_tag": 0, "excluded_cancelled": 0},
+  "formulas": {
+    "net_sales": "Gross Sales − Discounts − Returns",
+    "gross_profit": "Net Sales − COGS",
+    "gm1": "Gross Profit ÷ Net Sales",
+    "units_per_order": "Units ÷ Orders",
+    "aov": "Net Sales ÷ Orders",
+    "profit_after_opex": "Gross Profit − Manual Total OPEX",
+    "opex_coverage": "Gross Profit ÷ Manual Total OPEX"
+  },
+  "methodology": "Shopify is the financial source of truth. Orders qualify only when they are tied to Corro Trailer 1 and carry a Silo Ridge tag. Total OPEX is a manual event-level input and excludes inventory/COGS."
+}

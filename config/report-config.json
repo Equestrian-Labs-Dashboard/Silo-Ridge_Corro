@@ -1,0 +1,11 @@
+{
+  "shopifyApiVersion": "2026-07",
+  "locationId": "67063775290",
+  "locationName": "Corro Trailer 1",
+  "orderTags": ["SiloRidge", "Silo Ridge", "Silo-Ridge", "SiloRodge"],
+  "canonicalTag": "SiloRidge",
+  "scanStart": "2026-09-01",
+  "fallbackEventStart": "2026-09-28",
+  "defaultOpex": 5000,
+  "timezone": "America/New_York"
+}
