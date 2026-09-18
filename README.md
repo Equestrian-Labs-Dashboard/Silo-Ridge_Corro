@@ -11,16 +11,16 @@ Source only Shopify orders that meet **both** conditions:
 
 The report shows:
 
-- Manual Total OPEX (default placeholder: `$5,000`; saved in browser localStorage)
+- Manual event OPEX by category (Hotel, Traveling Staff, Transportation, Trailer Expenses, and Other Event Expenses), with a default total placeholder of `$5,000`; saved in browser localStorage
 - Gross Sales
 - Net Sales
 - Gross Profit
-- GM1 / Gross Margin
+- Gross Margin
 - Units
 - Units per Order
 - AOV
 - Orders (supporting audit KPI)
-- Profit After OPEX and OPEX Coverage (secondary decision metrics)
+- Event Contribution and OPEX Coverage (secondary decision metrics)
 - Dynamic weekly detail
 - Qualifying order audit
 
@@ -28,10 +28,10 @@ The report shows:
 
 - `Net Sales = Gross Sales - Discounts - Returns`
 - `Gross Profit = Net Sales - COGS`
-- `GM1 = Gross Profit / Net Sales`
+- `Gross Margin = Gross Profit / Net Sales`
 - `Units / Order = Units / Orders`
 - `AOV = Net Sales / Orders`
-- `Profit After OPEX = Gross Profit - Manual Total OPEX`
+- `Event Contribution = Gross Profit - Manual Total OPEX`
 - Total OPEX is manual and **does not include inventory/COGS**.
 
 ## GitHub Actions secrets
@@ -66,6 +66,10 @@ Edit `config/report-config.json` if the live Shopify tag differs. Current accept
 - `SiloRidge`
 - `Silo Ridge`
 - `Silo-Ridge`
+- `Silo Rich`
+- `Siler Rich`
+- `Silo`
+- `Ridge`
 - `SiloRodge` (included defensively because this spelling appeared in the working notes)
 
 The ETL uses a strict **location AND tag** rule. It does not include all Trailer 1 sales.
