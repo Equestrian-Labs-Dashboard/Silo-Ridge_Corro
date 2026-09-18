@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-17T21:34:12.927Z",
+  "generated_at": "2026-09-18T00:29:18.852Z",
   "report_name": "Silo Ridge Sales Performance",
   "config": {
     "location_id": "67063775290",
@@ -52,10 +52,10 @@
   ],
   "orders": [],
   "stats": {
-    "scanned": 237,
+    "scanned": 240,
     "matched": 0,
-    "excluded_wrong_location": 148,
-    "excluded_missing_tag": 237,
+    "excluded_wrong_location": 151,
+    "excluded_missing_tag": 240,
     "excluded_cancelled": 5
   },
   "formulas": {
